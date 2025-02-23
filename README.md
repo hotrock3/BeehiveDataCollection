@@ -12,7 +12,7 @@ The beehives to be monitored are located on a south-facing exterior area located
 2. Be able to add or remove more sensor packages as needed.
 3. Be understandable/accessable for basic users to who may need to take over the project if the founder leaves.
 
-With this in mind, existing hardware components in an easily understood configuration was required. The only bespoke component was the PCB used but it is not required. Off the shelf components include ESP32, ds18b20 temperature probe, and 50kg load cells, HX711 analog- to-digital converter (ADC), 18650 rechargable cells, and a 18650 solar MPPT charger. 
+With this in mind, existing hardware components in an easily understood configuration was required. The only bespoke component was the PCB used but it is not required. Off the shelf components include ESP32, ds18b20 temperature probe, and 50kg load cells, HX711 analog-to-digital converter (ADC), 18650 rechargable cells, and a 18650 solar MPPT charger. 
 
 
 ## To-Do List
