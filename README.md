@@ -15,12 +15,21 @@ The beehives to be monitored are located on a south-facing exterior area located
 With this in mind, existing hardware components in an easily understood configuration was required. The only bespoke component was the PCB used but it is not required. Off the shelf components include ESP32, ds18b20 temperature probe, and 50kg load cells, HX711 analog-to-digital converter (ADC), 18650 rechargable cells, and a 18650 solar MPPT charger. 
 
 
-## To-Do List
+# Helpful Resources
+- [Load cell explanation and setup](https://circuitjournal.com/50kg-load-cells-with-HX711)
+- [Load cell bracket](https://www.thingiverse.com/thing:2624188)
+- [IOT Stack guide](https://learnembeddedsystems.co.uk/easy-raspberry-pi-iot-server)
+- [DS18B20 sensor setup and explanation](https://www.youtube.com/watch?v=Y1__vmkr8-g)
+- [Calibration Process for DS18B20](https://www.instructables.com/Calibration-of-DS18B20-Sensor-With-Arduino-UNO/)
+- [ESP32 Deep Sleep explanation](https://www.youtube.com/watch?v=YOjgZUg_skU)
+  
+
+# To-Do List
 - [x] Create repo and upload arduino code
 - [ ] Add description of data flow using a visual.
 - [ ] Add photos of actual board and installation
 - [ ] Include code and visuals from Node-Red
 - [ ] Include screenshot of Grafana dashboard with hive data (currently only collecting weight and ambient temp)
-- [ ] Upload PCB diagram and/or files
-- [ ] Create parts list
+- [x] Upload PCB diagram and/or files
+- [x] Create parts list
 - [ ] Upload .stl of housing (also post on printables.)
